@@ -1,3 +1,22 @@
+This was the final assignment in my intermediate C programming course at the University of Guelph.
+It involved creating an ADT/Abstract Data Type which is called Sorted_List and is a sorted doubly linked list. 
+The file names are organized by question, which would be more helpful if i still had the outline of the assignment but I forgot to download it and lost it, whoops.
+Here is a rough description of the file directory:
+1a
+- a4q1a_char.c and a4q1a_int.c : parse user input commands
+- commands_q1a.c : perform linked list operations such as print, append, remove, push, print, free/destroy a list
+1b
+- a4q1b.c : creates an array of 10 sorted linked lists
+- commands_a4q1b.c : perform linked list operations on an array of linked lists. had to write new functions instead of calling those from commands_q1a (which might have been a better program design) due to assignment restrictions
+2
+- a4q2.c : extended edition of a4q1a, allows file input from stdin or a file with scripted commands written. new commands include gcd which finds greatest common divisor of all integers within the list, and remove_nth which removes the node at the requested index n.
+- a4q2_functions.c : perform linked list operations 
+3
+- a4q3.c : essentialy the same as q1a and q2, however now the content of the linked list are fractions which require an additional struct Fraction and specialized functions to implement. there are now special commands that will display the fractions as mixed numbers or improper fractions. 
+- a4q3_functions.c : perform fraction linked list operations
+
+Below is my original README handed in with my assignment. 
+
 Here are instructions on how to compile and run the programs for Assignment 4 of CIS*2500.
 Name: Michelle Berry
 SN: 1082031
